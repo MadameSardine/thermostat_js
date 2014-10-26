@@ -10,7 +10,6 @@ get '/' do
 end
 
 get '/weather' do 
-
     url = 'http://api.openweathermap.org/data/2.5/find?q=London&units=metric'
     resp = Net::HTTP.get_response(URI.parse(url))
     data = resp.body

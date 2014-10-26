@@ -1,7 +1,21 @@
 body{
-	padding-top: 5%;
+	padding 2em;
 	text-align: center;
-	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-family: 'Poiret One', cursive;
+	display: inline;
+}
+
+header{
+	margin-top: 2em;
+	font-size: 3em;
+	margin-bottom: 2em;
+	text-align: left;
+	margin-left: 10%;
+}
+
+section{
+	float: left;
+	margin-left: 10%;
 }
 
 ul{
@@ -27,6 +41,11 @@ a{
 
 .temp{
 	display: inline-block;
-	font-size: 2em;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.options{
+	margin-top: 5%;
 }
 
